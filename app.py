@@ -5,14 +5,11 @@ import mysql.connector as sql
 import numpy as np
 from datetime import datetime
 import warnings
-from flaskext.mysql import MySQL
 import pandas as pd
 import mysql.connector
 warnings.filterwarnings("ignore")
 from flask import Flask, render_template, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
-import mysql.connector
-warnings.filterwarnings("ignore")
 app = Flask(__name__)
 app.secret_key="inique"
 db_connection = mysql.connector.connect(
