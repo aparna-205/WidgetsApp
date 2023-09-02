@@ -11,3 +11,9 @@ mysqlclient==2.1.1
 SQLAlchemy==1.4.44
 Werkzeug==2.2.2
 zipp==3.11.0
+plotly==5.11.0
+bcrypt==4.0.1
+dnspython==2.0.0
+pandas==2.0.1
+matplotlib==3.6.2
+numpy==1.23.4
