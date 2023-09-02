@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, jsonify, flash, redirect,session
-from flask_mysqldb  import MySQL, MySQLdb
 import pandas as pd
 import json
 import mysql.connector as sql
