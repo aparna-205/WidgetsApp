@@ -13,10 +13,10 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 app.secret_key="inique"
 db_connection = mysql.connector.connect(
-    host='database-2.cxvimxaxcei9.ap-south-1.rds.amazonaws.com',
-    database='vehicledb',
+    host='database-1.cbjabnlglbz6.ap-south-1.rds.amazonaws.com',
+    database='vehicles',
     user='admin',
-    password='aparna321',
+    password='aparna123',
     auth_plugin='mysql_native_password'
 )
 @app.route("/", methods=["GET", "POST"])
