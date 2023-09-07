@@ -13,8 +13,8 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 app.secret_key="inique"
 db_connection = mysql.connector.connect(
-    host='database-1.cbjabnlglbz6.ap-south-1.rds.amazonaws.com',
-    database='vehicles',
+    host='database-2.cbjabnlglbz6.ap-south-1.rds.amazonaws.com',
+    database='vehicledb',
     user='admin',
     password='aparna123',
     auth_plugin='mysql_native_password'
